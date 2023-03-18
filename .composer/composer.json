@@ -1,0 +1,13 @@
+{
+    "require": {
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "^2.8",
+        "sebastian/phpcpd": "*",
+        "phploc/phploc": "*",
+        "php-parallel-lint/php-parallel-lint": "^1.0",
+        "jakub-onderka/php-console-highlighter": "^0.4.0"
+    },
+    "conflict": {
+        "phpunit/php-timer": ">=2"
+    }
+}
