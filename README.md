@@ -21,3 +21,11 @@ services:
   php:
     image: ghcr.io/j3-tech/docker-php-dev:main
 ```
+
+- Dockerfile:
+
+```Dockerfile
+FROM ghcr.io/j3-tech/docker-php-dev:main
+
+RUN install-php-extensions gd
+```
