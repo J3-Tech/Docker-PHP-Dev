@@ -14,10 +14,10 @@ Usage:
 
 - docker-compose.yml:
 
-`
+```yml
 version: '3'
 
 services:
   php:
     image: ghcr.io/j3-tech/docker-php-dev:main
-`
+```
