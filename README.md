@@ -6,8 +6,9 @@ Install tools:
  - Codesniffer
  - Mess Detector
  - Copy paste detector
- - line of code
- - linter
+ - LOC
+ - Lint
+ - PHP Unit
 
 
 Usage:
