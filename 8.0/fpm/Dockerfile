@@ -9,3 +9,4 @@ RUN install-php-extensions @composer
 
 COPY .composer /root/.composer
 RUN composer global install
+RUN export PATH="$PATH:/root/.composer/vendor/bin"
