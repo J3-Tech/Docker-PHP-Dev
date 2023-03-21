@@ -11,7 +11,7 @@ Install tools:
  - PHP Unit
 
 
-Usage:
+## Usage:
 
 - docker-compose.yml:
 
@@ -30,3 +30,7 @@ FROM ghcr.io/j3-tech/docker-php-dev:main
 
 RUN install-php-extensions gd
 ```
+
+## Multi platform support
+
+Image supports `amd64`, `arm64`, `i386`, `ppc64le`, and `s390x`
