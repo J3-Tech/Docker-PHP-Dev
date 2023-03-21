@@ -20,13 +20,17 @@ version: '3'
 
 services:
   php:
-    image: ghcr.io/j3-tech/docker-php-dev:main
+    image: ghcr.io/j3-tech/docker-php-dev:main-8.2-cli
+    # image: ghcr.io/j3-tech/docker-php-dev:main-8.1-cli
+    # image: ghcr.io/j3-tech/docker-php-dev:main-8.0-cli
 ```
 
 - Dockerfile:
 
 ```Dockerfile
-FROM ghcr.io/j3-tech/docker-php-dev:main
+FROM ghcr.io/j3-tech/docker-php-dev:main-8.2-cli
+# FROM ghcr.io/j3-tech/docker-php-dev:main-8.1-cli
+# FROM ghcr.io/j3-tech/docker-php-dev:main-8.0-cli
 
 RUN install-php-extensions gd
 ```
