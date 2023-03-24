@@ -1,4 +1,5 @@
-# Docker-PHP-Dev ![Docker build](https://github.com/J3-Tech/Docker-PHP-Dev/actions/workflows/docker-publish.yml/badge.svg)
+# Docker-PHP-Dev
+[![Docker](https://github.com/J3-Tech/Docker-PHP-Dev/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/J3-Tech/Docker-PHP-Dev/actions/workflows/docker-publish.yml)
 
 Composer-loaded PHP
 
