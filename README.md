@@ -10,6 +10,7 @@ Install tools:
  - LOC
  - Lint
  - PHP Unit
+ - xdebug
 
 
 ## Usage:

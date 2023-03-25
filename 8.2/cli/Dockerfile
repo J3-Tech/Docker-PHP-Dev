@@ -5,7 +5,7 @@ RUN apt-get update \
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 
-RUN install-php-extensions @composer
+RUN install-php-extensions xdebug @composer
 
 COPY .composer /root/.composer
 RUN composer global install
