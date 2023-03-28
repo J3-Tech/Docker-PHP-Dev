@@ -9,3 +9,4 @@ RUN install-php-extensions xdebug @composer
 
 COPY .composer /root/.composer
 RUN composer global install
+ENV PATH="$PATH:/root/.composer/vendor/bin"
