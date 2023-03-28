@@ -76,7 +76,7 @@ jobs:
           context: 8.0/fpm
           platforms: linux/amd64,linux/arm64,linux/386,linux/ppc64le,linux/s390x
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.meta.outputs.tags }}-8.1-fpm
+          tags: ${{ steps.meta.outputs.tags }}-8.0-fpm
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -88,7 +88,7 @@ jobs:
           context: 8.0/cli
           platforms: linux/amd64,linux/arm64,linux/386,linux/ppc64le,linux/s390x
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.meta.outputs.tags }}-8.1-cli
+          tags: ${{ steps.meta.outputs.tags }}-8.0-cli
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
